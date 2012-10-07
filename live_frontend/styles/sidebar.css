@@ -1,0 +1,108 @@
+#MediaButtons {
+	font-family: helvetica;
+	margin: 20px 30px 0px 30px;
+	text-align: center;
+	border: 1px solid #C4C4C4;
+	padding: 0;
+    background-image: url("../images/bg-main.png");
+    background-position: 0 -155px;
+    background-repeat: repeat-x;
+	font-size:13px;
+}
+#MediaButtons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#MediaButtons ul li {
+    display: inline-block;
+	padding:10px;
+}
+#MediaButtons ul li input {
+	font-variant:small-caps;
+	letter-spacing:2px;
+}
+#social_list {
+    margin-top: 12px;
+    text-align: center;
+}
+#social_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#social_list ul li {
+    display: inline;
+}
+#MediaButtons ul li {
+    display: inline-block;
+}
+#sponsor_list {
+    padding: 0;
+    text-align: center;
+}
+#sponsor_list ul {
+    list-style-type: none;
+    padding: 0;
+}
+.goldsponsors img {
+	padding:8px;
+}
+
+.goldsponsors, #calendar, #twitter h2 {
+	font-size:18px;
+	font-variant: small-caps;
+	letter-spacing:4px;
+	font-weight:normal;
+	line-height:16px;
+}
+
+.goldsponsors {
+	margin-bottom:8px;
+	margin-top:10px;
+	
+}
+.silversponsors {
+	letter-spacing: 1px;
+	font-size: 12px;
+
+	text-align: center;
+	margin: 0px 25px;
+}
+.sponsorclass {
+	margin-top:25px;
+	margin-bottom: -2px;
+}
+.silversponsors table {
+	width:100%;
+}
+.silversponsors a {
+	text-decoration:none;
+}
+.silversponsors a:hover {
+	text-decoration:underline;
+}
+#calendar {
+	margin: 20px 25px 0px;
+	text-align:center;
+}
+#calendar_container {
+	padding-top:10px;
+}
+
+.tooltip {
+	background: transparent url(../images/tooltip/white_arrow.png);
+	background-repeat: no-repeat;
+	font-size: 12px;
+	height: 70px;
+	width: 160px;
+	padding: 25px;
+	color: black;
+	text-align: center;
+
+	font-family: helvetica;
+	letter-spacing: 1px;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	filter:alpha(opacity=90);
+}

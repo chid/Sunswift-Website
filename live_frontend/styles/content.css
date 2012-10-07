@@ -1,0 +1,86 @@
+h2.entry-title {
+	font-size: 18px;
+	letter-spacing: 0.08em;
+	margin:0;
+}
+.post {
+	padding: 20px 25px;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+}
+
+.post img, .post object, .post embed, .post iframe {
+	max-width:460px;
+}
+div.entry-meta {
+    font-size: 12px;
+	font-variant: small-caps;
+}
+div.entry-utility {
+    font-size: 11px;
+	font-variant:small-caps;
+}
+#content .entry-content {
+    font-size: 12px;
+}
+#content .entry_content a {
+	color:#063FF4;
+}
+#content a, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+#content a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#content object {}
+
+#page {
+	margin: 20px;
+
+	font-size: 12px;
+	letter-spacing: 0.08em;
+}
+
+.page_title {
+	font-size:20px;
+	font-variant: small-caps;
+	padding: 0px 0px 20px;
+	border-bottom: 1px dashed #D2DADA;
+	letter-spacing:1px;
+
+}
+.page_content h2 {
+	margin: 20px 5px;
+	letter-spacing:1px;
+	font-weight:normal;
+	font-size:15px;
+}
+.page_content {
+	margin: 20px 0px;
+}
+
+#nav-above {
+	display:none;
+}
+
+#nav-below {
+	padding:20px
+}
+
+.facebook_like {
+width:50px;
+}
+
+.really_simple_share {
+	padding-top: 10px !important;
+}
+
+.wp-caption-text {
+	font-style: italic;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+/*
+Theme Name: Sunswift
+Theme URI: http://www.sunswift.com/
+Description: Theme for Sunswift, the UNSW Solar Racing Team
+Author: Daniel Friedman
+Version: 1.0
+License: Request from danielnfriedman@gmail.com
+*/
+@import url("styles/layout.css");
+@import url("styles/header.css");
+@import url("styles/content.css");
+@import url("styles/comments.css");
+@import url("styles/sidebar.css");
+@import url("styles/live.css");
+@import url("styles/media.css");
+@import url("styles/twitter.css");
+@import url("styles/buttons.css");
+@import url("styles/lightbox.css");
+@import url("styles/jquery.ui.css");

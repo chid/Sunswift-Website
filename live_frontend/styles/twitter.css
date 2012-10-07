@@ -1,0 +1,80 @@
+/**
+*	Twitter CSS
+*/
+#twitter {
+
+	font-size:12px;
+	letter-spacing:1px;
+	margin: 20px 0px 0px;
+	text-align: center;
+}
+
+#twitter a, a:visited {
+	text-decoration:none;
+}
+
+#twitter a:hover {
+	text-decoration:underline;
+	font-variant:none;
+}
+
+.twitted {
+	width: 100%;
+}
+
+.twitted h2 {
+	margin: 0;
+	padding: 0 2em;
+	font-size: 1em;
+	
+
+}
+
+.twitted p.preLoader {
+	margin: 0;
+	text-align: center;
+	background: transparent url("../images/twitter-loader.gif") 4.5em center no-repeat;
+	padding: 15px;
+}
+
+.twitted ul#twitter_update_list {
+	margin: 0;
+	padding: 0 2em;
+	list-style-type: none;
+}
+
+.twitted ul#twitter_update_list li {
+	margin: 0;
+	padding: 0.8em 0 1em 0;
+	text-align:left;
+
+}
+
+.twitted ul#twitter_update_list li span {
+	/* tweet content */
+	display: block;
+}
+
+.twitted ul#twitter_update_list li span a {
+	/* links in tweet content */
+	color: #063ff4;
+}
+
+.twitted ul#twitter_update_list li a {
+	/* timestamp link */
+	color: #000;
+}
+
+.twitted ul#twitter_update_list li.firstTweet {
+	padding-top:5px;
+}
+
+.twitted ul#twitter_update_list li.lastTweet {
+	border-bottom: none;
+	padding: 0.8em 0 0 0;
+}
+
+.twitted p.profileLink {
+	padding: 0 2em;
+	margin: 0;
+}

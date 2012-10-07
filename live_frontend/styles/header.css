@@ -1,0 +1,112 @@
+#topHeader {
+    padding-bottom: 9px;
+    position: relative;
+    text-align: right;
+    width: 780px;
+    background-image: url("../images/bg-main-reversed.png");
+    background-position: 0 -25px;
+    background-repeat: repeat-x;
+	height: 74px;
+}
+#textHeader {
+    color: #282828;
+    font-family: 'Times New Roman',serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: small-caps;
+    letter-spacing: 0.18em;
+    margin: 0 0 0 20px;
+    position: absolute;
+    text-align: left;
+    line-height: 48px;
+	height:46px;
+    width: 555px;
+	position:absolute;
+	left:0px;
+}
+#header #topHeader .logo {
+    margin: 14px 14px 0 0;
+}
+#navHeader {
+    background-color: #282828;
+    bottom: 0px;
+    color: #FFFFFF;
+    float: left;
+    padding: 5px;
+    position: absolute;
+    z-index: 10;
+    font-variant: small-caps;
+	font-size: 12px;
+	letter-spacing: 0.14em;
+	font-family:helvetica;
+	position:absolute;
+	left:0px;
+}
+#navHeader ul a, ul a:visited, ul a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navHeader ul a:hover {
+	color:#fff;
+}
+
+#navHeader ul {
+    line-height: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+#navHeader ul li {
+    cursor: pointer;
+    display: inline;
+    list-style: none outside none;
+    padding: 15px;
+    position: relative;
+}
+#navHeader ul li > ul {
+    background-color: #282828;
+    left: 15px;
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+    filter:alpha(opacity=85);
+    padding: 5px 8px 0;
+    position: absolute;
+    top: 38px;
+    visibility: hidden;
+	display:none;
+	z-index:999;
+}
+#navHeader ul li:hover > ul {
+    visibility:visible;
+	display:block;
+}
+#navHeader ul li ul li {
+    border-top: 1px dotted #505050;
+    display: block;
+    padding: 2px 10px;
+}
+#navHeader ul li ul li > ul {
+    background-color: #282828;
+    left: 130px;
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+    filter:alpha(opacity=85);
+    padding: 5px 8px 0;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+	display:none;
+	z-index:999;
+}
+#navHeader ul li ul li:hover > ul {
+    visibility:visible;
+	display:block;
+}
+#navHeader ul li ul li ul li {
+    border-top: 1px dotted #505050;
+    display: block;
+    padding: 2px 10px;
+}

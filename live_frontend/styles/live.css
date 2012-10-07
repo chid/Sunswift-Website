@@ -1,0 +1,271 @@
+#mediaHeader {
+    /*background: url("images/shadow.gif") repeat-x scroll 0 -42px #fff;*/
+	background-color: #282828;
+	
+    border-top: 1px solid #282828;
+	overflow:hidden;
+    height: 265px;
+    position: relative;
+    text-align: center;
+	line-height:1;
+}
+
+
+
+#live_logo {
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    font-variant: small-caps;
+    height: 20px;
+    letter-spacing: 3px;
+	position:absolute;
+	left:20px;
+    text-align: right;
+	margin-top:222px;
+	line-height:11px;
+	display:none;
+}
+
+
+#map_canvas {
+    border-bottom: 1px solid #000000;
+    height: 415px;
+    width: 100%;
+}
+
+#live_container {
+    display: none;
+    height: 185px;
+    position: relative;
+    text-align: center;
+    width: 780px;
+}
+#dashboard {
+    float: left;
+    padding-top: 13px;
+    width: 255px;
+}
+
+
+#recent_tweets {
+    float: right;
+    height: 190px;
+    width: 210px;
+	padding-top:35px;
+	padding-left:8px;
+}
+
+.tweetbubble {
+	color:#000;
+	font-size:12px;
+}
+#speedo {
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+    text-align: left;
+    width: 210px;
+}
+#speedo object {
+    z-index: 999;
+	position:absolute;
+	left:3px;
+	top:418px;
+}
+
+#heatsinktemp object, #motortemp object {
+	z-index: 999;
+	position:absolute;
+}
+
+.data-item {
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 115px;
+	float:left;
+	padding: 0px 12px 0px;
+}
+
+#arraypower {
+	color:#67B138;
+	display:inline;
+}
+
+
+#live-dash-line1, #live-dash-line2 {
+	width:480px;
+	height:100px;
+	margin-left:10px;
+}
+#live-dash-line2 {
+	margin-top:18px;
+}
+
+#arraypower-container {
+	line-height: 14px;
+	float: left;
+	width: 55px;
+	padding: 13px 0px 0px 15px;
+}
+
+#array-outer-container {
+    width: 30px;
+    height: 120px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    position: relative;
+	padding-top:15px;
+
+}
+
+#array-text-container {
+	width:30px;
+}
+#array-outer-container {
+	margin-top:4px;
+}
+
+#array-inner-progress, #array-inner-progress div {
+    width: 100%;
+    overflow: hidden;
+    left: 0px;
+    position: absolute;
+}
+
+#array-inner-progress {
+    border: 2px solid #67B138;
+    border-top-width: 0;
+    background-color: #67B138;
+    bottom: 0;
+    height: 0%;
+}
+
+#array-inner-progress div {
+    border: 2px solid #67B138;
+    border-bottom-width: 0;
+    background-color: #67B138;
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+
+
+
+.temp-data {
+    color: #67B138;
+    font-size: 22px;
+	float:left;
+	width:100%;
+	padding:4px 0px;
+}
+
+.time-data {
+    color: #67B138;
+    font-size: 18px;
+	float:left;
+	width:100%;
+	padding:4px 0px;	
+}
+
+.time-data {
+	font-size:13px;
+	float:left;
+	width:100%;
+	padding:4px 0px;	
+}
+
+.temp-unit {
+    font-size: 12px;
+    padding-left: 2px;
+}
+#motortemp {
+    height: 80px;
+
+}
+#heatsinktemp {
+	height: 80px;
+}
+#distance {
+	width:135px;
+}
+
+#data-age-container {
+	color: white;
+	font-variant: small-caps;
+	position: absolute;
+	text-align: right;
+	margin-top: 221px;
+	margin-right: 2px;
+	font-size:11px;
+	font-family:helvetica;
+	letter-spacing: 2px;
+	width: 780px;
+}
+#data-age-container a, #data-age-container a:visited {
+	color:white;
+}
+
+#slider {
+	margin: 10px 20px;
+}
+
+#controls {
+	float: right;
+	letter-spacing: 2px;
+	position: absolute;
+	margin-top: -80px;
+	width: 100%;
+	text-align: right;
+	font-size: 8px;
+	margin-right:10px;
+	right: 0px;
+	
+}
+#controls label {
+	margin:1px 0px;
+}
+
+#followmaplabel {
+	width:133px;
+}
+#realtime {
+	float:left;
+}
+
+#replay {
+	float:right;
+}
+#livestate {
+	margin-top: 6px;
+}
+#offline {
+	color:#ffffff;
+	line-height:650px;
+	font-family:helvetica,serif;
+	font-size:12px;
+	text-align:center;
+	font-variant:small-caps;
+	letter-spacing:2px;
+	width:100%;
+	position: absolute;
+	top: 0;
+	display:none;
+}
+
+#toolbar {
+	float: right;
+	right: 145px;
+	padding: 5px;
+	position: absolute;
+}
+.live-sponsor-logo {
+	margin-right:78px;
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	filter:alpha(opacity=30);
+}

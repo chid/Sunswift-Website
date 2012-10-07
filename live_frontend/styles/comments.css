@@ -1,0 +1,90 @@
+#comments {
+	margin: 0px 25px;
+	font-family: Georgia, serif;
+	font-size:12px;
+}
+
+h3#comments-title, #reply-title {
+	
+	font-size:16px;
+	margin: 0px;
+}
+
+.commentlist {
+	margin:0;
+}
+
+.comment {
+	margin-top:25px;
+	padding:6px;
+	border: 1px solid #ccc;
+	position:relative;
+}
+
+.avatar {
+	float:right;
+}
+
+ol.commentlist {
+	padding: 0px;
+}
+ 
+.comment-meta {
+	font-size:12px;
+	font-style: italic;
+}
+
+.comment-author {
+	font-size:14px;
+}
+
+cite.fn {
+	font-style: normal;
+	font-weight:bold;
+}
+
+.comment-body p {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+.comment-author-admin .says:before{
+	content:'(Sunswift Team) ';
+}
+.comment-form-comment label {
+	padding-right:5px;
+}
+
+p.form-allowed-tags {
+	font-size:11px;
+}
+
+p.comment-notes {
+	font-style:italic;
+	margin:0;
+}
+
+.form-submit #submit {
+	border: 0;
+	background-color: #282828;
+	color: white;
+	padding: 5px 15px;
+}
+
+.children {
+	padding: 0px 10px;
+	margin:0;
+	list-style:none;
+}
+
+.reply  {
+	padding: 10px 0px 0px;
+}
+
+#respond {
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin-top:25px;
+	font-family: Georgia, serif;
+	font-size:12px;
+}

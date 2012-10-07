@@ -1,0 +1,72 @@
+.button {
+    font-size: 10px;
+    font-variant: small-caps;
+    padding: 3px 10px;
+	font-family:helvetica, sans-serif;
+}
+.button .border {
+    border: 1px solid #A0A0A0;
+}
+.button .border.side.left {
+    border-right: 1px solid #444444 !important;
+}
+.button .border.side.center {
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #444444 !important;
+}
+.button .border.side.right {
+    border-left: 1px solid #FFFFFF !important;
+}
+.button .background.main {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.button .background.top {
+    background: none repeat scroll 0 0 #F3F3F3;
+}
+.button .background.bottom {
+    background: none repeat scroll 0 0 #E3E3E3;
+}
+.button .border.hover {
+    border-color: #666666;
+}
+.button .border.down {
+    border-color: black;
+}
+.button .background.top.down {
+    background: none repeat scroll 0 0 #E3E3E3;
+}
+.button .background.bottom.down {
+    background: none repeat scroll 0 0 #F3F3F3;
+}
+.button.active {
+    color: white;
+}
+.button .background.main.active {
+    background: none repeat scroll 0 0 #AAAAAA;
+}
+.button .background.top.active {
+    background: none repeat scroll 0 0 #A1A1A1;
+}
+.button .background.bottom.active {
+    background: none repeat scroll 0 0 #B2B2B2;
+}
+.button .border.active {
+    border-color: #222222;
+}
+.button .border.side.center.active, .button .border.side.right.active {
+    border-left: 1px solid #CCCCCC !important;
+}
+.button .dropdown {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #A0A0A0;
+    color: black;
+    list-style: none outside none;
+    padding: 4px;
+}
+.button .dropdown.active li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: black;
+}
+.button .dropdown.active li:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
